@@ -1,0 +1,56 @@
+# AST/ASF file generated using VICON BodyLanguage
+# -----------------------------------------------
+:version 1.10
+:name VICON
+:units
+  mass 1.0
+  length 0.45
+  angle deg
+:documentation
+   .ast/.asf automatically generated from VICON data using
+   VICON BodyBuilder and BodyLanguage model FoxedUp or BRILLIANT.MOD
+:root
+   order TX TY TZ RX RY RZ
+   axis XYZ
+   position 0 0 0  
+   orientation 0 0 0 
+:bonedata
+  begin
+     id 11 
+     name lowerback
+     direction 0 1 0   
+     length 10.24007   
+     axis 0 0 0   XYZ
+    dof rx ry rz
+    limits (-20.0 45.0)
+           (-30.0 30.0)
+           (-30.0 30.0)
+  end
+  begin
+     id 12 
+     name upperback
+     direction 0 1 0   
+     length 10.20123   
+     axis 0 0 0   XYZ
+    dof rx ry rz
+    limits (-20.0 45.0)
+           (-30.0 30.0)
+           (-30.0 30.0)
+  end
+  begin
+     id 13 
+     name topback
+     direction 0 1 0   
+     length 10.20123   
+     axis 0 0 0   XYZ
+    dof rx ry rz
+    limits (-20.0 45.0)
+           (-30.0 30.0)
+           (-30.0 30.0)
+  end
+:hierarchy
+  begin
+    root lowerback
+    lowerback upperback
+	upperback topback
+  end
